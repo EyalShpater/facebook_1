@@ -10,6 +10,6 @@ int main()
 {
     cout << "hello" << endl;
     Time t(19, 11, 2021);
-
+    Date();
     return 0;
 }
