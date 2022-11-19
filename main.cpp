@@ -9,5 +9,7 @@ using namespace std;
 int main()
 {
     cout << "hello" << endl;
+    Time t(19, 11, 2021);
+
     return 0;
 }
