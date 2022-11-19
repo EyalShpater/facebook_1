@@ -1,0 +1,3 @@
+/Users/eyal/CLionProjects/facebook/cmake-build-debug/CMakeFiles/facebook.dir
+/Users/eyal/CLionProjects/facebook/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/eyal/CLionProjects/facebook/cmake-build-debug/CMakeFiles/rebuild_cache.dir
