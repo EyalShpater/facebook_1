@@ -43,12 +43,6 @@ int main()
 
 
     d.show();
-    t.show();
-    t1.show();
-    Time t2;
-    Date d2;
-    d2.show();
-    t2.show();
 
     return 0;
 }
