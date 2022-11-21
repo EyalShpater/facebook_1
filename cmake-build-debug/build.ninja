@@ -82,6 +82,30 @@ build CMakeFiles/facebook.dir/fansPage.cpp.o: CXX_COMPILER__facebook_Debug /User
   OBJECT_DIR = CMakeFiles/facebook.dir
   OBJECT_FILE_DIR = CMakeFiles/facebook.dir
 
+build CMakeFiles/facebook.dir/fansPageArray.cpp.o: CXX_COMPILER__facebook_Debug /Users/eyal/CLionProjects/facebook/fansPageArray.cpp || cmake_object_order_depends_target_facebook
+  DEP_FILE = CMakeFiles/facebook.dir/fansPageArray.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/facebook.dir
+  OBJECT_FILE_DIR = CMakeFiles/facebook.dir
+
+build CMakeFiles/facebook.dir/member.cpp.o: CXX_COMPILER__facebook_Debug /Users/eyal/CLionProjects/facebook/member.cpp || cmake_object_order_depends_target_facebook
+  DEP_FILE = CMakeFiles/facebook.dir/member.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/facebook.dir
+  OBJECT_FILE_DIR = CMakeFiles/facebook.dir
+
+build CMakeFiles/facebook.dir/memberArray.cpp.o: CXX_COMPILER__facebook_Debug /Users/eyal/CLionProjects/facebook/memberArray.cpp || cmake_object_order_depends_target_facebook
+  DEP_FILE = CMakeFiles/facebook.dir/memberArray.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/facebook.dir
+  OBJECT_FILE_DIR = CMakeFiles/facebook.dir
+
+build CMakeFiles/facebook.dir/admin.cpp.o: CXX_COMPILER__facebook_Debug /Users/eyal/CLionProjects/facebook/admin.cpp || cmake_object_order_depends_target_facebook
+  DEP_FILE = CMakeFiles/facebook.dir/admin.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/facebook.dir
+  OBJECT_FILE_DIR = CMakeFiles/facebook.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target facebook
@@ -90,7 +114,7 @@ build CMakeFiles/facebook.dir/fansPage.cpp.o: CXX_COMPILER__facebook_Debug /User
 #############################################
 # Link the executable facebook
 
-build facebook: CXX_EXECUTABLE_LINKER__facebook_Debug CMakeFiles/facebook.dir/main.cpp.o CMakeFiles/facebook.dir/date.cpp.o CMakeFiles/facebook.dir/time.cpp.o CMakeFiles/facebook.dir/status.cpp.o CMakeFiles/facebook.dir/billboard.cpp.o CMakeFiles/facebook.dir/fansPage.cpp.o
+build facebook: CXX_EXECUTABLE_LINKER__facebook_Debug CMakeFiles/facebook.dir/main.cpp.o CMakeFiles/facebook.dir/date.cpp.o CMakeFiles/facebook.dir/time.cpp.o CMakeFiles/facebook.dir/status.cpp.o CMakeFiles/facebook.dir/billboard.cpp.o CMakeFiles/facebook.dir/fansPage.cpp.o CMakeFiles/facebook.dir/fansPageArray.cpp.o CMakeFiles/facebook.dir/member.cpp.o CMakeFiles/facebook.dir/memberArray.cpp.o CMakeFiles/facebook.dir/admin.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
   OBJECT_DIR = CMakeFiles/facebook.dir
   POST_BUILD = :

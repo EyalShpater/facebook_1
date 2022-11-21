@@ -4,13 +4,20 @@
 #include <iostream>
 using namespace std;
 
-class Date;
-class Time;
+#include "date.h"
+#include "time.h"
 
 class Status {
-    Date* theDate;
-    Time* theTime;
+    const Date theDate;
+    const Time theTime;
+    char* text;
 
+public:
+    Status(const char* text);
+    Status(const Status& other);
+    ~Status();
+
+    void show() const;
 };
 
 
